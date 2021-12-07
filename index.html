@@ -17,7 +17,7 @@
     <title>Document</title>
 </head>
 <body class="overflow-hidden vh-100" scroll="no">
-    <div id="content-wrapper">
+    <div id="content-wrapper" class="h-100">
         <div id="navbar">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
@@ -70,7 +70,8 @@
                 </div>
               </nav>
         </div>
-        <div class="col-3 side-navbar active-nav d-flex justify-content-between flex-wrap flex-column navbar-dark bg-dark" id="sidebar">
+        <div id="second-wrapper" class="d-flex flex-row h-100">
+          <div class="col-3 side-navbar active-nav d-flex justify-content-between flex-wrap flex-column navbar-dark bg-dark" id="sidebar">
             <ul class="nav flex-column text-white w-100">
             <a href="#" class="nav-link h3 align-self-center text-white my-2">
                 FredHub
@@ -85,8 +86,173 @@
                 <li class="nav-link h6 text-white my-2"><i class="far fa-address-card"></i> Kontakt meg! </li>
             </li>
             </ul>
-        </div>        
+        </div>
+        <div id="main-content" class="w-100">
+          <div class="container">
+            <div class="row">
+              <div class="[ col-sm-6 col-md-4 ]">
+                <div class="[ info-card ]">
+                  <img style="width: 100%" src="/media/img/fauskesimulator.png" />
+                  <div class="[ info-card-details ] animate">
+                    <div class="[ info-card-header ]">
+                      <h1> FauskeSimulator </h1>
+                      <h3> <em>"Beste spillet!"</em> </h3>
+                    </div>
+                    <div class="[ info-card-detail ]">
+                      <!-- Description -->
+                      <p>FauskeSimulator er et spill jeg lagde på skolen i utvikling. Det er laget med hovedsakelig JavaScript.</p>
+                      <div class="container">
+                        <!-- Trigger the modal with a button -->
+                      <button id="cust_btn" type="button"  class="btn btn-default btn-lg">Mer info</button>
+                      <br>
+                      <br>
+                      <div class="social">
+                        <a href="https://github.com/FredrikFreding/Fauske-simulator" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+                      </div>
+                      <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header text-center">
+                              <h4 class="modal-title w-100">FauskeSimulator</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>FauskeSimulator er et tekstbasert nettspill. Det er bygget opp av hovedsakelig JavaScript med Node.js og kjøre flere pakker:</p>
+                              <ul class="list-unstyled">
+                                <li class="text-center">Bootstrap 5</li>
+                                <li>DART-sass</li>
+                                <li>FontAwesome</li>
+                              </ul>
+                              <p>Spillet ble utviklet mtp skole i faget utvikling. Det er kun en offline test-versjon som er utgitt, men det kan komme online senere. <br><br> Dette er det prosjekte jeg har brukt mest tid på noen sinne, men det kommer større prosjekter i framtiden.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button id="cust_btn" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="[ col-sm-6 col-md-offset-2 col-md-4 ]">
+                <div class="[ info-card ]">
+                  <img style="width: 100%" src="/media/img/fredrikfreding00.png" />
+                  <div class="[ info-card-details ] animate">
+                    <div class="[ info-card-header ]">
+                      <h1> Fredrik Elias Freding </h1>
+                      <h3> aka Juxemakern </h3>
+                    </div>
+                    <div class="[ info-card-detail ]">
+                      <!-- Description -->
+                      <p>Navn: Fredrik Elias Freding<br>Alder: 17 år gammel<br><br>Utviklet store ting som FauskeSimulator</p>
+                      <div class="social">
+                        <a href="https://www.facebook.com/rem.mcintosh" class="[ social-icon facebook ] animate"><span class="fa fa-facebook"></span></a>
+        
+                        <a href="https://twitter.com/Mouse0270" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
+        
+                        <a href="https://github.com/mouse0270" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+        
+                        <a href="https://plus.google.com/u/0/115077481218689845626/posts" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
+        
+                        <a href="www.linkedin.com/in/remcintosh/" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="[ col-sm-6 col-md-offset-2 col-md-4 ]">
+                <div class="[ info-card ]">
+                  <img style="width: 100%" src="/media/img/fredhub.png" />
+                  <div class="[ info-card-details ] animate">
+                    <div class="[ info-card-header ]">
+                      <h1> FredHub </h1>
+                      <h3> <em>"Beste nettsiden!"</em> </h3>
+                    </div>
+                    <div class="[ info-card-detail ]">
+                      <!-- Description -->
+                      <p>FredHub er denne nettsiden som jeg lagde siden jeg kjedet meg, og ville ha noe å ha på hjemmesiden min.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <u><h2 class="text-center">Prosjekter jeg har jobbet/jobber med</h2></u>
+          <div id="cards_landscape_wrap-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="/media/img/fauskesimulator.png" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>FauskeSimulator</h6>
+                                        <p>FauskeSimulator er et stort JavaScript prosjekt jeg har jobbet mye med.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="/media/img/fredhub.png" alt="" />
+                                    </div>
+                                    <div class="text-container">                                    
+                                        <h6>FredHub</h6>
+                                        <p>FredHub er denne nettsiden, den skal vise alle prosjektene mine.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="/media/img/pwg.png" alt="" />
+                                    </div>
+
+                                    <div class="text-container">
+                                        <h6>PWG</h6>
+                                        <p>PWG er en passord generator jeg har laget i python.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                      <a href="">
+                          <div class="card-flyer">
+                              <div class="text-box">
+                                  <div class="image-box">
+                                      <img src="https://cdn.pixabay.com/photo/2018/03/30/15/12/dog-3275593_960_720.jpg" alt="" />
+                                  </div>
+                                  <div class="text-container">
+                                      <h6>Sett inn</h6>
+                                      <p>Sett inn</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+        </div>      
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Popup Javascript -->
+    <script src="/JS/popup.js"></script>
     <!-- Navbar/sidebar JavaScript -->
     <script src="/JS/nav.js"></script>
     <!-- Bootstrap Bundle with Popper -->
